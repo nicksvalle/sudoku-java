@@ -17,8 +17,9 @@ Este é um projeto de Sudoku desenvolvido em Java com o objetivo de implementar 
 ## 🛠️ Tecnologias Utilizadas
 
 - Java 8+
+- Swing para a interface gráfica
 - IDE (IntelliJ, Eclipse ou VS Code)
-- (Opcional) Maven ou Gradle para gerenciamento de dependências
+- Maven para gerenciamento de dependências
 
 ---
 
@@ -75,8 +76,9 @@ This is a Sudoku game project developed in Java, aiming to implement a functiona
 ## 🛠️ Technologies Used
 
 - Java 8+
+- Swing
 - IDE (IntelliJ, Eclipse or VS Code)
-- (Optional) Maven or Gradle
+- Maven
 
 ---
 
