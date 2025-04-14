@@ -10,6 +10,7 @@ Este é um projeto de Sudoku desenvolvido em Java com o objetivo de implementar 
 - Geração de tabuleiro de Sudoku aleatório
 - Validação de jogadas conforme as regras do Sudoku
 - Interface simples para interação via terminal
+- Interface gráfica para melhor interação
 - Lógica de verificação de vitória
 
 ---
@@ -32,7 +33,7 @@ git clone https://github.com/nicksvalle/sudoku-java.git
 
 2. Abra em sua IDE Java preferida
 
-3. Execute a classe `Main.java` (ou a classe principal que inicializa o jogo)
+3. Execute a classe `Main.java` (para a interface no terminal) ou a classe `UIMain.java` (para a interface gráfica)
 
 ---
 
@@ -42,8 +43,7 @@ git clone https://github.com/nicksvalle/sudoku-java.git
 sudoku-java/
 ├── src/
 │   └── Main.java
-│   └── SudokuBoard.java
-│   └── SudokuValidator.java
+|   └── UIMain.java
 │   └── ...
 └── README.md
 ```
@@ -68,7 +68,8 @@ This is a Sudoku game project developed in Java, aiming to implement a functiona
 
 - Random Sudoku board generation  
 - Move validation according to Sudoku rules  
-- Simple terminal interaction  
+- Simple terminal interaction
+- GUI for better interaction
 - Win condition check
 
 ---
@@ -91,7 +92,7 @@ git clone https://github.com/nicksvalle/sudoku-java.git
 
 2. Open the project in your favorite Java IDE
 
-3. Run the `Main.java` class (or the main class that starts the game)
+3. Run the `Main.java` class (to execute the simple interface) or `UIMain.java` class (to execute the GUI)
 
 ---
 
@@ -101,8 +102,7 @@ git clone https://github.com/nicksvalle/sudoku-java.git
 sudoku-java/
 ├── src/
 │   └── Main.java
-│   └── SudokuBoard.java
-│   └── SudokuValidator.java
+|   └── UIMain.java
 │   └── ...
 └── README.md
 ```
